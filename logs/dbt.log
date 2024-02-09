@@ -1,0 +1,367 @@
+
+
+============================== 16:32:42.624766 | ad1bfba8-af8d-40f6-a819-fbc620c07cfd ==============================
+[0m16:32:42.624766 [info ] [MainThread]: Running with dbt=1.7.7
+[0m16:32:42.628453 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init jaffle_shop', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m16:32:42.629254 [debug] [MainThread]: Starter project path: /usr/local/lib/python3.11/site-packages/dbt/include/starter_project
+[0m16:32:42.633488 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:32:42.633867 [info ] [MainThread]: Setting up your profile.
+[0m16:34:53.361042 [info ] [MainThread]: Profile jaffle_shop written to /Users/kris.srithararajah/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:34:53.369958 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 130.79115, "process_user_time": 1.169491, "process_kernel_time": 0.182458, "process_mem_max_rss": "117825536", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:34:53.370754 [debug] [MainThread]: Command `dbt init` succeeded at 16:34:53.370584 after 130.79 seconds
+[0m16:34:53.371273 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:35:01.683416 | df8ffd70-5a7e-4c94-a8e1-488d59c52c9d ==============================
+[0m16:35:01.683416 [info ] [MainThread]: Running with dbt=1.7.7
+[0m16:35:01.686819 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m16:35:01.687388 [info ] [MainThread]: dbt version: 1.7.7
+[0m16:35:01.687655 [info ] [MainThread]: python version: 3.11.5
+[0m16:35:01.687887 [info ] [MainThread]: python path: /usr/local/opt/python@3.11/bin/python3.11
+[0m16:35:01.688121 [info ] [MainThread]: os info: macOS-13.0-x86_64-i386-64bit
+[0m16:35:01.844440 [info ] [MainThread]: Using profiles dir at /Users/kris.srithararajah/.dbt
+[0m16:35:01.844832 [info ] [MainThread]: Using profiles.yml file at /Users/kris.srithararajah/.dbt/profiles.yml
+[0m16:35:01.845094 [info ] [MainThread]: Using dbt_project.yml file at /Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml
+[0m16:35:01.845382 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:35:01.846878 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.21040083, "process_user_time": 1.189681, "process_kernel_time": 0.156845, "process_mem_max_rss": "120307712", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:35:01.847369 [debug] [MainThread]: Command `dbt debug` failed at 16:35:01.847271 after 0.21 seconds
+[0m16:35:01.847665 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:36:48.260095 | f2f82417-88cb-4945-a2b3-c7212a4f6c8f ==============================
+[0m16:36:48.260095 [info ] [MainThread]: Running with dbt=1.7.7
+[0m16:36:48.263903 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m16:36:48.264486 [info ] [MainThread]: dbt version: 1.7.7
+[0m16:36:48.264769 [info ] [MainThread]: python version: 3.11.5
+[0m16:36:48.265011 [info ] [MainThread]: python path: /usr/local/opt/python@3.11/bin/python3.11
+[0m16:36:48.265247 [info ] [MainThread]: os info: macOS-13.0-x86_64-i386-64bit
+[0m16:36:48.454416 [info ] [MainThread]: Using profiles dir at /Users/kris.srithararajah/.dbt
+[0m16:36:48.454807 [info ] [MainThread]: Using profiles.yml file at /Users/kris.srithararajah/.dbt/profiles.yml
+[0m16:36:48.455070 [info ] [MainThread]: Using dbt_project.yml file at /Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml
+[0m16:36:48.455367 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:36:48.457620 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.24496612, "process_user_time": 1.230168, "process_kernel_time": 0.170602, "process_mem_max_rss": "121520128", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:36:48.458094 [debug] [MainThread]: Command `dbt debug` failed at 16:36:48.457995 after 0.25 seconds
+[0m16:36:48.458375 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:40:41.394436 | d2b8c6a5-4881-4346-8d83-3cc7262d2d54 ==============================
+[0m16:40:41.394436 [info ] [MainThread]: Running with dbt=1.7.7
+[0m16:40:41.398195 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'False'}
+[0m16:40:41.398814 [info ] [MainThread]: dbt version: 1.7.7
+[0m16:40:41.399098 [info ] [MainThread]: python version: 3.11.5
+[0m16:40:41.399339 [info ] [MainThread]: python path: /usr/local/opt/python@3.11/bin/python3.11
+[0m16:40:41.399580 [info ] [MainThread]: os info: macOS-13.0-x86_64-i386-64bit
+[0m16:40:41.584131 [info ] [MainThread]: Using profiles dir at /Users/kris.srithararajah/.dbt
+[0m16:40:41.584494 [info ] [MainThread]: Using profiles.yml file at /Users/kris.srithararajah/.dbt/profiles.yml
+[0m16:40:41.584747 [info ] [MainThread]: Using dbt_project.yml file at /Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml
+[0m16:40:41.585045 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:40:41.587173 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.23945563, "process_user_time": 1.233352, "process_kernel_time": 0.164242, "process_mem_max_rss": "120029184", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:40:41.587624 [debug] [MainThread]: Command `dbt debug` failed at 16:40:41.587520 after 0.24 seconds
+[0m16:40:41.587893 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:42:38.937274 | 39c16e01-eebe-47ee-8198-d6a46e06367c ==============================
+[0m16:42:38.937274 [info ] [MainThread]: Running with dbt=1.7.7
+[0m16:42:38.941093 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'False'}
+[0m16:42:38.941711 [info ] [MainThread]: dbt version: 1.7.7
+[0m16:42:38.941992 [info ] [MainThread]: python version: 3.11.5
+[0m16:42:38.942225 [info ] [MainThread]: python path: /usr/local/opt/python@3.11/bin/python3.11
+[0m16:42:38.942466 [info ] [MainThread]: os info: macOS-13.0-x86_64-i386-64bit
+[0m16:42:39.128207 [info ] [MainThread]: Using profiles dir at /Users/kris.srithararajah/.dbt
+[0m16:42:39.128593 [info ] [MainThread]: Using profiles.yml file at /Users/kris.srithararajah/.dbt/profiles.yml
+[0m16:42:39.128854 [info ] [MainThread]: Using dbt_project.yml file at /Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml
+[0m16:42:39.129144 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:42:39.131361 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.24059904, "process_user_time": 1.230597, "process_kernel_time": 0.162966, "process_mem_max_rss": "117784576", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:42:39.131830 [debug] [MainThread]: Command `dbt debug` failed at 16:42:39.131732 after 0.24 seconds
+[0m16:42:39.132099 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:46:58.115216 | 1bbbddae-9622-4204-92ee-05182302433e ==============================
+[0m16:46:58.115216 [info ] [MainThread]: Running with dbt=1.7.7
+[0m16:46:58.118846 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m16:46:58.119405 [info ] [MainThread]: dbt version: 1.7.7
+[0m16:46:58.119685 [info ] [MainThread]: python version: 3.11.5
+[0m16:46:58.119921 [info ] [MainThread]: python path: /usr/local/opt/python@3.11/bin/python3.11
+[0m16:46:58.120154 [info ] [MainThread]: os info: macOS-13.0-x86_64-i386-64bit
+[0m16:46:58.303586 [info ] [MainThread]: Using profiles dir at /Users/kris.srithararajah/.dbt
+[0m16:46:58.303972 [info ] [MainThread]: Using profiles.yml file at /Users/kris.srithararajah/.dbt/profiles.yml
+[0m16:46:58.304242 [info ] [MainThread]: Using dbt_project.yml file at /Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml
+[0m16:46:58.304532 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:46:58.306757 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.23878592, "process_user_time": 1.226846, "process_kernel_time": 0.165453, "process_mem_max_rss": "119787520", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:46:58.307218 [debug] [MainThread]: Command `dbt debug` failed at 16:46:58.307115 after 0.24 seconds
+[0m16:46:58.307491 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:47:23.414068 | 7fd34bd6-9b02-42af-b970-ee685c19dc45 ==============================
+[0m16:47:23.414068 [info ] [MainThread]: Running with dbt=1.7.7
+[0m16:47:23.417862 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug --config-dir', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'False'}
+[0m16:47:23.418437 [info ] [MainThread]: To view your profiles.yml file, run:
+
+open /Users/kris.srithararajah/.dbt
+[0m16:47:23.420574 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.05201946, "process_user_time": 1.085231, "process_kernel_time": 0.147238, "process_mem_max_rss": "104726528", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:47:23.421084 [debug] [MainThread]: Command `dbt debug` succeeded at 16:47:23.420976 after 0.05 seconds
+[0m16:47:23.421379 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:49:27.135182 | 41285b81-52d8-4560-9790-564d62bf2ad9 ==============================
+[0m16:49:27.135182 [info ] [MainThread]: Running with dbt=1.7.7
+[0m16:49:27.139173 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug --config-dir', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'False'}
+[0m16:49:27.139769 [info ] [MainThread]: To view your profiles.yml file, run:
+
+open /Users/kris.srithararajah/.dbt
+[0m16:49:27.142168 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.055088375, "process_user_time": 1.104144, "process_kernel_time": 0.139977, "process_mem_max_rss": "106139648", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:49:27.142669 [debug] [MainThread]: Command `dbt debug` succeeded at 16:49:27.142553 after 0.06 seconds
+[0m16:49:27.142971 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:49:30.371793 | 01391eae-fcb4-410b-8e80-f94a9d35baf0 ==============================
+[0m16:49:30.371793 [info ] [MainThread]: Running with dbt=1.7.7
+[0m16:49:30.375023 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m16:49:30.375586 [info ] [MainThread]: dbt version: 1.7.7
+[0m16:49:30.375849 [info ] [MainThread]: python version: 3.11.5
+[0m16:49:30.376089 [info ] [MainThread]: python path: /usr/local/opt/python@3.11/bin/python3.11
+[0m16:49:30.376328 [info ] [MainThread]: os info: macOS-13.0-x86_64-i386-64bit
+[0m16:49:30.550275 [info ] [MainThread]: Using profiles dir at /Users/kris.srithararajah/.dbt
+[0m16:49:30.550658 [info ] [MainThread]: Using profiles.yml file at /Users/kris.srithararajah/.dbt/profiles.yml
+[0m16:49:30.550920 [info ] [MainThread]: Using dbt_project.yml file at /Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml
+[0m16:49:30.551206 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:49:30.552866 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.22627676, "process_user_time": 1.220177, "process_kernel_time": 0.14238, "process_mem_max_rss": "120799232", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:49:30.553398 [debug] [MainThread]: Command `dbt debug` failed at 16:49:30.553294 after 0.23 seconds
+[0m16:49:30.553696 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:53:06.136991 | a530472c-b062-4fb9-ac2f-85e3270ff5d2 ==============================
+[0m16:53:06.136991 [info ] [MainThread]: Running with dbt=1.7.7
+[0m16:53:06.141464 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m16:53:06.142139 [info ] [MainThread]: dbt version: 1.7.7
+[0m16:53:06.142437 [info ] [MainThread]: python version: 3.11.5
+[0m16:53:06.142681 [info ] [MainThread]: python path: /usr/local/opt/python@3.11/bin/python3.11
+[0m16:53:06.142927 [info ] [MainThread]: os info: macOS-13.0-x86_64-i386-64bit
+[0m16:53:06.354371 [info ] [MainThread]: Using profiles dir at /Users/kris.srithararajah/.dbt
+[0m16:53:06.354814 [info ] [MainThread]: Using profiles.yml file at /Users/kris.srithararajah/.dbt/profiles.yml
+[0m16:53:06.355113 [info ] [MainThread]: Using dbt_project.yml file at /Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml
+[0m16:53:06.355512 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:53:06.358200 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.27596554, "process_user_time": 1.318467, "process_kernel_time": 0.187144, "process_mem_max_rss": "115441664", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:53:06.358815 [debug] [MainThread]: Command `dbt debug` failed at 16:53:06.358690 after 0.28 seconds
+[0m16:53:06.359143 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:57:14.687627 | baed0451-c81c-499c-b279-402f06636a52 ==============================
+[0m16:57:14.687627 [info ] [MainThread]: Running with dbt=1.7.7
+[0m16:57:14.691508 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m16:57:14.692108 [info ] [MainThread]: dbt version: 1.7.7
+[0m16:57:14.692384 [info ] [MainThread]: python version: 3.11.5
+[0m16:57:14.692624 [info ] [MainThread]: python path: /usr/local/opt/python@3.11/bin/python3.11
+[0m16:57:14.692869 [info ] [MainThread]: os info: macOS-13.0-x86_64-i386-64bit
+[0m16:57:14.887136 [info ] [MainThread]: Using profiles dir at /Users/kris.srithararajah/.dbt
+[0m16:57:14.887519 [info ] [MainThread]: Using profiles.yml file at /Users/kris.srithararajah/.dbt/profiles.yml
+[0m16:57:14.887775 [info ] [MainThread]: Using dbt_project.yml file at /Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml
+[0m16:57:14.888061 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:57:14.890206 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.24964687, "process_user_time": 1.214548, "process_kernel_time": 0.168937, "process_mem_max_rss": "117837824", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:57:14.890698 [debug] [MainThread]: Command `dbt debug` failed at 16:57:14.890592 after 0.25 seconds
+[0m16:57:14.890975 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:57:35.215955 | 1e326e1b-1dfa-456a-ae57-c005bcae7e52 ==============================
+[0m16:57:35.215955 [info ] [MainThread]: Running with dbt=1.7.7
+[0m16:57:35.219698 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'False'}
+[0m16:57:35.220251 [info ] [MainThread]: dbt version: 1.7.7
+[0m16:57:35.220529 [info ] [MainThread]: python version: 3.11.5
+[0m16:57:35.220766 [info ] [MainThread]: python path: /usr/local/opt/python@3.11/bin/python3.11
+[0m16:57:35.221000 [info ] [MainThread]: os info: macOS-13.0-x86_64-i386-64bit
+[0m16:57:35.402640 [info ] [MainThread]: Using profiles dir at /Users/kris.srithararajah/.dbt
+[0m16:57:35.403077 [info ] [MainThread]: Using profiles.yml file at /Users/kris.srithararajah/.dbt/profiles.yml
+[0m16:57:35.403343 [info ] [MainThread]: Using dbt_project.yml file at /Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml
+[0m16:57:35.403650 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:57:35.405949 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.23635738, "process_user_time": 1.250803, "process_kernel_time": 0.165403, "process_mem_max_rss": "120922112", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:57:35.406416 [debug] [MainThread]: Command `dbt debug` failed at 16:57:35.406319 after 0.24 seconds
+[0m16:57:35.406706 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:59:11.854979 | 9ec2663a-15da-4f04-9538-c70ce1e3ae1f ==============================
+[0m16:59:11.854979 [info ] [MainThread]: Running with dbt=1.7.7
+[0m16:59:11.859427 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'False'}
+[0m16:59:11.860100 [info ] [MainThread]: dbt version: 1.7.7
+[0m16:59:11.860387 [info ] [MainThread]: python version: 3.11.5
+[0m16:59:11.860634 [info ] [MainThread]: python path: /usr/local/opt/python@3.11/bin/python3.11
+[0m16:59:11.860891 [info ] [MainThread]: os info: macOS-13.0-x86_64-i386-64bit
+[0m16:59:12.047175 [info ] [MainThread]: Using profiles dir at /Users/kris.srithararajah/.dbt
+[0m16:59:12.047548 [info ] [MainThread]: Using profiles.yml file at /Users/kris.srithararajah/.dbt/profiles.yml
+[0m16:59:12.047815 [info ] [MainThread]: Using dbt_project.yml file at /Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml
+[0m16:59:12.048118 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:59:12.050283 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.24952604, "process_user_time": 1.246751, "process_kernel_time": 0.1727, "process_mem_max_rss": "119349248", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m16:59:12.050772 [debug] [MainThread]: Command `dbt debug` failed at 16:59:12.050666 after 0.25 seconds
+[0m16:59:12.051056 [debug] [MainThread]: Flushing usage events
+
+
+============================== 17:00:46.090774 | b9565e6e-3171-4d39-b877-73db67ef1b1a ==============================
+[0m17:00:46.090774 [info ] [MainThread]: Running with dbt=1.7.7
+[0m17:00:46.094697 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'False'}
+[0m17:00:46.095283 [info ] [MainThread]: dbt version: 1.7.7
+[0m17:00:46.095560 [info ] [MainThread]: python version: 3.11.5
+[0m17:00:46.095800 [info ] [MainThread]: python path: /usr/local/opt/python@3.11/bin/python3.11
+[0m17:00:46.096040 [info ] [MainThread]: os info: macOS-13.0-x86_64-i386-64bit
+[0m17:00:46.281082 [info ] [MainThread]: Using profiles dir at /Users/kris.srithararajah/.dbt
+[0m17:00:46.281458 [info ] [MainThread]: Using profiles.yml file at /Users/kris.srithararajah/.dbt/profiles.yml
+[0m17:00:46.281713 [info ] [MainThread]: Using dbt_project.yml file at /Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml
+[0m17:00:46.282003 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:00:46.284090 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.24205771, "process_user_time": 1.244929, "process_kernel_time": 0.168667, "process_mem_max_rss": "120504320", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:00:46.284619 [debug] [MainThread]: Command `dbt debug` failed at 17:00:46.284506 after 0.24 seconds
+[0m17:00:46.284906 [debug] [MainThread]: Flushing usage events
+
+
+============================== 17:03:45.920400 | 7ba09728-73b2-4d74-8953-bb39d5562660 ==============================
+[0m17:03:45.920400 [info ] [MainThread]: Running with dbt=1.7.7
+[0m17:03:45.924251 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'False'}
+[0m17:03:45.924792 [info ] [MainThread]: dbt version: 1.7.7
+[0m17:03:45.925067 [info ] [MainThread]: python version: 3.11.5
+[0m17:03:45.925308 [info ] [MainThread]: python path: /usr/local/opt/python@3.11/bin/python3.11
+[0m17:03:45.925546 [info ] [MainThread]: os info: macOS-13.0-x86_64-i386-64bit
+[0m17:03:46.116442 [info ] [MainThread]: Using profiles dir at /Users/kris.srithararajah/.dbt
+[0m17:03:46.116842 [info ] [MainThread]: Using profiles.yml file at /Users/kris.srithararajah/.dbt/profiles.yml
+[0m17:03:46.117100 [info ] [MainThread]: Using dbt_project.yml file at /Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml
+[0m17:03:46.117389 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:03:46.119534 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.2485683, "process_user_time": 1.241519, "process_kernel_time": 0.169394, "process_mem_max_rss": "121298944", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:03:46.120017 [debug] [MainThread]: Command `dbt debug` failed at 17:03:46.119917 after 0.25 seconds
+[0m17:03:46.120314 [debug] [MainThread]: Flushing usage events
+
+
+============================== 17:04:08.424633 | 82b67eb9-388f-4b4a-a45c-ec7482bb8102 ==============================
+[0m17:04:08.424633 [info ] [MainThread]: Running with dbt=1.7.7
+[0m17:04:08.428544 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m17:04:08.429137 [info ] [MainThread]: dbt version: 1.7.7
+[0m17:04:08.429419 [info ] [MainThread]: python version: 3.11.5
+[0m17:04:08.429667 [info ] [MainThread]: python path: /usr/local/opt/python@3.11/bin/python3.11
+[0m17:04:08.429903 [info ] [MainThread]: os info: macOS-13.0-x86_64-i386-64bit
+[0m17:04:08.608138 [info ] [MainThread]: Using profiles dir at /Users/kris.srithararajah/.dbt
+[0m17:04:08.608503 [info ] [MainThread]: Using profiles.yml file at /Users/kris.srithararajah/.dbt/profiles.yml
+[0m17:04:08.608758 [info ] [MainThread]: Using dbt_project.yml file at /Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml
+[0m17:04:08.609074 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:04:08.611183 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.23272675, "process_user_time": 1.24225, "process_kernel_time": 0.165042, "process_mem_max_rss": "119840768", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:04:08.611667 [debug] [MainThread]: Command `dbt debug` failed at 17:04:08.611561 after 0.23 seconds
+[0m17:04:08.611958 [debug] [MainThread]: Flushing usage events
+
+
+============================== 17:04:16.672595 | 9eb5b817-4903-4fe2-9dfb-5883a9ca8730 ==============================
+[0m17:04:16.672595 [info ] [MainThread]: Running with dbt=1.7.7
+[0m17:04:16.676505 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m17:04:16.677129 [info ] [MainThread]: dbt version: 1.7.7
+[0m17:04:16.677433 [info ] [MainThread]: python version: 3.11.5
+[0m17:04:16.677675 [info ] [MainThread]: python path: /usr/local/opt/python@3.11/bin/python3.11
+[0m17:04:16.677927 [info ] [MainThread]: os info: macOS-13.0-x86_64-i386-64bit
+[0m17:04:16.850696 [info ] [MainThread]: Using profiles dir at /Users/kris.srithararajah/.dbt
+[0m17:04:16.851128 [info ] [MainThread]: Using profiles.yml file at /Users/kris.srithararajah/.dbt/profiles.yml
+[0m17:04:16.851397 [info ] [MainThread]: Using dbt_project.yml file at /Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml
+[0m17:04:16.851701 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:04:16.853377 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.23079783, "process_user_time": 1.293087, "process_kernel_time": 0.148637, "process_mem_max_rss": "119910400", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:04:16.853917 [debug] [MainThread]: Command `dbt debug` failed at 17:04:16.853809 after 0.23 seconds
+[0m17:04:16.854221 [debug] [MainThread]: Flushing usage events
+[0m17:05:05.128689 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eaf1850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eb668d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eb67350>]}
+
+
+============================== 17:05:05.132998 | 492bd792-a650-4f0d-90bb-7c05978ff659 ==============================
+[0m17:05:05.132998 [info ] [MainThread]: Running with dbt=1.7.7
+[0m17:05:05.133490 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/kris.srithararajah/.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:05:05.134003 [info ] [MainThread]: dbt version: 1.7.7
+[0m17:05:05.134263 [info ] [MainThread]: python version: 3.11.5
+[0m17:05:05.134500 [info ] [MainThread]: python path: /usr/local/opt/python@3.11/bin/python3.11
+[0m17:05:05.134714 [info ] [MainThread]: os info: macOS-13.0-x86_64-i386-64bit
+[0m17:05:05.324213 [info ] [MainThread]: Using profiles dir at /Users/kris.srithararajah/.dbt
+[0m17:05:05.324630 [info ] [MainThread]: Using profiles.yml file at /Users/kris.srithararajah/.dbt/profiles.yml
+[0m17:05:05.324875 [info ] [MainThread]: Using dbt_project.yml file at /Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml
+[0m17:05:05.325282 [info ] [MainThread]: adapter type: snowflake
+[0m17:05:05.325504 [info ] [MainThread]: adapter version: 1.7.1
+[0m17:05:05.325728 [info ] [MainThread]: Configuration:
+[0m17:05:05.325930 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:05:05.326124 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:05:05.326316 [info ] [MainThread]: Required dependencies:
+[0m17:05:05.326574 [debug] [MainThread]: Executing "git --help"
+[0m17:05:05.386541 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:05:05.387385 [debug] [MainThread]: STDERR: "b''"
+[0m17:05:05.387699 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:05:05.387967 [info ] [MainThread]: Connection:
+[0m17:05:05.388243 [info ] [MainThread]:   account: qrgmnge-yt23190
+[0m17:05:05.388456 [info ] [MainThread]:   user: krisrajah
+[0m17:05:05.388654 [info ] [MainThread]:   database: TEST
+[0m17:05:05.388851 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m17:05:05.389045 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m17:05:05.389234 [info ] [MainThread]:   schema: EXAMPLE
+[0m17:05:05.389426 [info ] [MainThread]:   authenticator: None
+[0m17:05:05.389626 [info ] [MainThread]:   private_key_path: None
+[0m17:05:05.389913 [info ] [MainThread]:   token: None
+[0m17:05:05.390169 [info ] [MainThread]:   oauth_client_id: None
+[0m17:05:05.390383 [info ] [MainThread]:   query_tag: None
+[0m17:05:05.390591 [info ] [MainThread]:   client_session_keep_alive: False
+[0m17:05:05.390794 [info ] [MainThread]:   host: None
+[0m17:05:05.390988 [info ] [MainThread]:   port: None
+[0m17:05:05.391183 [info ] [MainThread]:   proxy_host: None
+[0m17:05:05.391377 [info ] [MainThread]:   proxy_port: None
+[0m17:05:05.391563 [info ] [MainThread]:   protocol: None
+[0m17:05:05.391751 [info ] [MainThread]:   connect_retries: 1
+[0m17:05:05.391939 [info ] [MainThread]:   connect_timeout: None
+[0m17:05:05.392126 [info ] [MainThread]:   retry_on_database_errors: False
+[0m17:05:05.392315 [info ] [MainThread]:   retry_all: False
+[0m17:05:05.392510 [info ] [MainThread]:   insecure_mode: False
+[0m17:05:05.392697 [info ] [MainThread]:   reuse_connections: None
+[0m17:05:05.393123 [info ] [MainThread]: Registered adapter: snowflake=1.7.1
+[0m17:05:05.402197 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m17:05:05.403436 [debug] [MainThread]: Using snowflake connection "debug"
+[0m17:05:05.403689 [debug] [MainThread]: On debug: select 1 as id
+[0m17:05:05.403931 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:05:06.017196 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.0 seconds
+[0m17:05:06.018136 [debug] [MainThread]: On debug: Close
+[0m17:05:06.091791 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m17:05:06.092161 [info ] [MainThread]: [31m1 check failed:[0m
+[0m17:05:06.092402 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/kris.srithararajah/Documents/GitHub/dbt-tutorial/dbt_project.yml> not found
+
+[0m17:05:06.095435 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 1.0149964, "process_user_time": 1.368269, "process_kernel_time": 0.211087, "process_mem_max_rss": "127295488", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:05:06.095930 [debug] [MainThread]: Command `dbt debug` failed at 17:05:06.095831 after 1.02 seconds
+[0m17:05:06.096463 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:05:06.096754 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eaf3890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eaeca90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11070a050>]}
+[0m17:05:06.097059 [debug] [MainThread]: Flushing usage events
