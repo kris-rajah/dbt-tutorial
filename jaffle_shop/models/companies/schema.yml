@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: tracked_leads
+    description: Collects tracked companies only from the leads source table.
+    columns:
+      - name: COMPANIES_HOUSE_ID
+        description: Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: REGISTERED_NAME
+        description: The registered name of the company with companies house.
+      - name: TRACKED_STATUS
+        description: Whether or not they are tracked in Beauhurst.
